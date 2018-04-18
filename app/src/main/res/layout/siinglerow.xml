@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="11dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="12dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_marginStart="108dp"
+        android:textSize="13dp"
+        android:text="TextView"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="108dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_marginEnd="82dp"
+        android:text="TextView"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="82dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13dp"
+        android:layout_marginTop="18dp"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignStart="@+id/textView"
+        android:text="TextView"
+        android:layout_alignLeft="@+id/textView" />
+</RelativeLayout>
